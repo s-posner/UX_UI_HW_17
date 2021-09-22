@@ -36,6 +36,13 @@ header{
     align-items: flex-start;
 }
 
+header ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
 .headfoot{
     padding-left: 7px;
     padding-right: 7px;
