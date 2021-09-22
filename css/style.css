@@ -33,7 +33,7 @@ header{
     display: flex;
     flex-direction: row; 
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: baseline;
 }
 
 header ul{
@@ -53,6 +53,7 @@ header ul{
     flex-direction: row; 
     justify-content: space-around;
     margin-left: 10px;
+    margin-right: 10px;
 }
 
 #hello{
@@ -62,6 +63,8 @@ header ul{
     flex-direction: row-reverse; 
     justify-content: space-around;
     height: max-content;
+    align-items: center;
+    padding-top: 40px;
 }
 
 #hello-text{
